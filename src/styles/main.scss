@@ -17,3 +17,37 @@ body {
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
 }
+
+.container {
+    width: 800px;
+    max-width: 100%;
+    padding: 50px 20px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    box-shadow: $box-shadow;
+    text-align: center;
+}
+h3 {
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+.joke {
+    max-width: 600px;
+    margin: 50px auto;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.btn {
+    padding: 14px 40px;
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) 0 6px 6px rgba(0,0,0,0.1);
+    font-size: 16px;
+    cursor: pointer;
+    &:active {transform: scale(0.98);}
+    &:focus {outline: 0;}
+}

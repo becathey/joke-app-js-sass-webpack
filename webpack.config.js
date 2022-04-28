@@ -22,6 +22,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Joke App',
             filename: 'index.html',
+            template: 'src/template.html',
         })
     ]
 }
