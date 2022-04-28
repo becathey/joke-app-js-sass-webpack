@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary-color: hsl(190, 60%, 50%);
+$secondary-color: hsl(0, 0%, 90%);
+$box-shadow: 0 10px 20px rgba(0,0,0,0.1) 0 6px 6px rgba(0,0,0,0.1);
+
+* {box-sizing: border-box;}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: $primary-color;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
